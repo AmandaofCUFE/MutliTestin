@@ -1,0 +1,20 @@
+.header {
+    text-align: center;background:rgba(255,255,255,0.95);
+}
+.header1 {
+    margin-top: 2px;
+}
+a{
+    color:#96a5aa;
+}
+.header1 table{
+    margin:auto}
+
+
+#adminCheck table tr td{padding-left: 20px;padding-right: 20px;padding-top: 50px;text-align: center;}
+#adminCheck  {width:80%;margin: auto;margin-top:50px;background:rgba(255,255,255,0.95);height:1400px}
+#adminCheck table{width:100%;margin: auto;padding-top:50px;}
+
+.div1{height:30px;margin-top: 50px;}
+.div2{height:50px;}
+.table2{margin: auto}

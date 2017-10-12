@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entity.TCommentEntity" table="comment" schema="testin">
+        <id name="commentId">
+            <column name="comment_id" sql-type="int(11) unsigned zerofill"/>
+        </id>
+        <property name="reportId">
+            <column name="report_id" sql-type="int(11)"/>
+        </property>
+        <property name="userId">
+            <column name="user_id" sql-type="int(11)"/>
+        </property>
+        <property name="commentContent">
+            <column name="comment_content" sql-type="varchar(255)"/>
+        </property>
+        <property name="commentDate">
+            <column name="comment_date" sql-type="varchar(255)"/>
+        </property>
+        <property name="commentLikes">
+            <column name="comment_likes" sql-type="int(10) unsigned zerofill"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entity.TTUserEntity" table="t_user" schema="testin">
+        <id name="idtUser">
+            <column name="idt_user" sql-type="int(11)"/>
+        </id>
+        <property name="tUserName">
+            <column name="t_user_name" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="tUserEmail">
+            <column name="t_user_email" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="tUserPassword">
+            <column name="t_user_password" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="tUserRepassword">
+            <column name="t_user_repassword" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

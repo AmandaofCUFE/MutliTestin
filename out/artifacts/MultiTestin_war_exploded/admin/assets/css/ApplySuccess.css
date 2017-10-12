@@ -1,0 +1,24 @@
+.header {
+    text-align: center;
+}
+.header1 {
+    margin-top: 2px;
+}
+a{
+    color:#96a5aa;
+}
+.header1 table{
+    margin:auto}
+
+.main{margin-left: 4%;margin-right: 4%;height:1000px;}
+#apply_success  tr td{padding-left: 10px;padding-right: 10px;padding-top: 25px;text-align: center;}
+#apply_success {width:100%;margin: auto;margin-top:50px;}
+#apply_success tr td p{font-size: 1.1em;font-weight:500;}
+
+
+
+div{background:rgba(255,255,255,0.95)}
+
+.div1{height:30px;margin-top: 50px;}
+.div2{height:50px;}
+.table2{margin: auto}

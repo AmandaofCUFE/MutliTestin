@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entity.TUserEntity" table="user" schema="testin">
+        <id name="userId">
+            <column name="user_id" sql-type="int(11)"/>
+        </id>
+        <property name="userName">
+            <column name="user_name" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="password">
+            <column name="password" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="userDate">
+            <column name="user_date" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="userTel">
+            <column name="user_tel" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="userEmail">
+            <column name="user_email" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="userCredit">
+            <column name="user_credit" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="userComments">
+            <column name="user_comments" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="userReports">
+            <column name="user_reports" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="userType">
+            <column name="user_type" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="userPic">
+            <column name="user_pic" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

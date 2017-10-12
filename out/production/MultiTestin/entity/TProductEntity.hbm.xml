@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entity.TProductEntity" table="product" schema="testin">
+        <id name="proId">
+            <column name="pro_id" sql-type="int(11)"/>
+        </id>
+        <property name="companyId">
+            <column name="company_id" sql-type="int(11)"/>
+        </property>
+        <property name="proName">
+            <column name="pro_name" sql-type="varchar(255)"/>
+        </property>
+        <property name="proStatus">
+            <column name="pro_status" sql-type="int(11)"/>
+        </property>
+        <property name="proDesc">
+            <column name="pro_desc" sql-type="varchar(255)"/>
+        </property>
+        <property name="proMethod">
+            <column name="pro_method" sql-type="varchar(255)"/>
+        </property>
+        <property name="proPic">
+            <column name="pro_pic" sql-type="varchar(255)"/>
+        </property>
+        <property name="proReports">
+            <column name="pro_reports" sql-type="int(10) unsigned zerofill"/>
+        </property>
+        <property name="proLimit">
+            <column name="pro_limit" sql-type="int(11)"/>
+        </property>
+        <property name="proApplicants">
+            <column name="pro_applicants" sql-type="int(10) unsigned zerofill"/>
+        </property>
+        <property name="proTimeLimit">
+            <column name="pro_time_limit" sql-type="varchar(255)"/>
+        </property>
+        <property name="passNumber">
+            <column name="pass_number" sql-type="int(11)"/>
+        </property>
+        <property name="proDate">
+            <column name="pro_date" sql-type="varchar(255)" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

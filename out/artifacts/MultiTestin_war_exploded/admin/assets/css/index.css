@@ -1,0 +1,72 @@
+.header {
+    text-align: center;
+}
+.header1 {
+    margin-top: 2px;
+}
+a{
+    color:#96a5aa;
+}
+.header1 table{
+    margin:auto   }
+.body{background-color:#e6e6e6 }
+
+.thenewest1{width:80%;margin-left:11%}
+
+#new0{margin-left: 10px;margin-right: 10px;display:block;  }
+#new1{margin-left: 10px;margin-right: 10px;display:block;  }
+#new2{margin-left: 10px;margin-right: 10px;display:block;  }
+
+#new0 ul li img{width:90%;text-align: center;}
+#new1 ul li img{width:90%;text-align: center;}
+#new2 ul li img{width:90%;text-align: center;}
+
+#thePast div ul li{display:block;
+    width:20em;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;}
+#theNewest div ul li{display:block;
+    width:20em;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;}
+
+
+
+.thepast1{width:80%;margin-left:11%}
+#past0{margin-left: 10px;margin-right: 10px;}
+#past1{margin-left: 10px;margin-right: 10px;}
+#past2{margin-left: 10px;margin-right: 10px;}
+
+#past0 ul li img{width:90%;text-align: center;}
+#past1 ul li img{width:90%;text-align: center;}
+#past2 ul li img{width:90%;text-align: center;}
+
+
+#thebestReport0{float: left;width:50%;margin-bottom: 20px;margin-top: 10px;height:200px}
+#thebestReport0 ul{width:80%;margin-left: 10%;}
+#thebestReport1{float: left;width:50%;margin-bottom: 20px;margin-top: 10px;height:200px}
+#thebestReport1 ul{width:80%;margin-left: 10%;}
+#thebestReport2{float: left;width:50%;margin-bottom: 20px;margin-top: 10px;height:200px}
+#thebestReport2 ul{width:80%;margin-left: 10%;}
+#thebestReport3{float: left;width:50%;margin-bottom: 20px;margin-top: 10px;height:200px}
+#thebestReport3 ul{width:80%;margin-left: 10%;}
+#thebestReport4{float: left;width:50%;margin-bottom: 20px;margin-top: 10px;height:200px}
+#thebestReport4 ul{width:80%;margin-left: 10%;}
+#thebestReport5{float: left;width:50%;margin-bottom: 20px;margin-top: 10px;height:200px}
+#thebestReport5 ul{width:80%;margin-left: 10%;}
+#thebestReport6{float: left;width:50%;margin-bottom: 20px;margin-top: 10px;height:200px}
+#thebestReport6 ul{width:80%;margin-left: 10%;}
+#thebestReport7{float: left;width:50%;margin-bottom: 20px;margin-top: 10px;height:200px}
+#thebestReport7 ul{width:80%;margin-left: 10%;}
+
+.div1{height: 30px}
+.div2{height: 30px}
+h2{text-align: center}
+.div3{height: 30px;background-color: #ffffff}
+.div4{height: 30px}
+
+#bestReport{background-color: white;width:88%;margin-left: 6%}

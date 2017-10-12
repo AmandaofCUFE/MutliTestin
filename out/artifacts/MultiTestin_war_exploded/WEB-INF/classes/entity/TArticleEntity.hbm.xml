@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entity.TArticleEntity" table="article" schema="testin">
+        <id name="articleId">
+            <column name="article_id" sql-type="int(11)"/>
+        </id>
+        <property name="articleReadNum">
+            <column name="article_read_num" sql-type="int(255)" not-null="true"/>
+        </property>
+        <property name="articleTitle">
+            <column name="article_title" sql-type="varchar(1000)" length="1000" not-null="true"/>
+        </property>
+        <property name="articleAuthor">
+            <column name="article_author" sql-type="varchar(1000)" length="1000" not-null="true"/>
+        </property>
+        <property name="articleUrl">
+            <column name="article_url" sql-type="varchar(5000)" length="5000" not-null="true"/>
+        </property>
+        <property name="articleComment">
+            <column name="article_comment" sql-type="varchar(5000)" length="5000" not-null="true"/>
+        </property>
+        <property name="articleUploadtime">
+            <column name="article_uploadtime" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="articleType">
+            <column name="article_type" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

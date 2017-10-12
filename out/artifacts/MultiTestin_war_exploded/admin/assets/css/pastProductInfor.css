@@ -1,0 +1,22 @@
+.header {
+    text-align: center;background:rgba(255,255,255,0.95)
+}
+.header1 {
+    margin-top: 2px;
+}
+a{
+    color:#96a5aa;
+}
+.header1 table{
+    margin:auto}
+
+
+td{margin-right: 30px;}
+li{margin-left: 10%;margin-right: 10%;}
+li img{width:60%;padding-top:30px;}
+h2{text-align: center;padding-top: 50px;}
+#reportList{padding-bottom: 80px;}
+.main{width:80%;margin-left: 10%;margin-bottom: 50px;margin-top: 50px;background:rgba(255,255,255,0.95)}
+.div1{height:30px;margin-top: 50px;background:rgba(255,255,255,0.95)}
+.div2{height:50px;background:rgba(255,255,255,0.95)}
+table{margin: auto}

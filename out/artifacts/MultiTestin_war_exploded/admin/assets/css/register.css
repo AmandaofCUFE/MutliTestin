@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+}
+.header1 {
+    margin-top: 2px;
+}
+a{
+    color:#6b6b6b;
+}
+.header1 table{
+    margin:auto   }
+body{background-color: #e6e6e6}
+.am-g{background-color: #ffffff;width:60%}
+.div1{height:25px;background-color:white}
+h2{color: #6b6b6b}
+.div2{height:15px;background-color:white}
+input{height:30px;margin-bottom: 20px;margin-top: 15px;width:100%;}
+button{border-radius: 10px;background-color:#a8a1c2;border:1.2px solid #a8a1c2;width:30%}
+.div3{height:45px;background-color:white}
+.div4{height:5px;background-color:white}
+.div5{height:60px;width:100%;}
+.div6{height:30px;width:100%;}
+table{margin:auto;}

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entity.TReportEntity" table="report" schema="testin">
+        <id name="reportId">
+            <column name="report_id" sql-type="int(11)"/>
+        </id>
+        <property name="reportTitle">
+            <column name="report_title" sql-type="varchar(255)"/>
+        </property>
+        <property name="reportContent">
+            <column name="report_content" sql-type="varchar(255)"/>
+        </property>
+        <property name="userId">
+            <column name="user_id" sql-type="int(11)"/>
+        </property>
+        <property name="proId">
+            <column name="pro_id" sql-type="int(11)"/>
+        </property>
+        <property name="reportLikes">
+            <column name="report_likes" sql-type="int(255) unsigned zerofill"/>
+        </property>
+        <property name="reportComments">
+            <column name="report_comments" sql-type="int(255) unsigned zerofill"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+}
+.header1 {
+    margin-top: 2px;
+}
+a{
+    color:#96a5aa;
+}
+.header1 table{
+    margin:auto}
+
+.main{margin-left: 4%;margin-right: 4%;height:1000px;}
+#product_content  tr td{padding-left: 10px;padding-right: 20px;padding-top: 15px;text-align: center;}
+#product_content {width:100%;margin: auto;margin-top:20px;}
+#product_content tr td p{font-size: 1.1em;font-weight:500;}
+
+.table1 tr td{padding-left: 5px;padding-right: 5px;padding-top: 20px;text-align: center;}
+.table1{margin-top:50px;text-align: center;}
+
+div{background:rgba(255,255,255,0.95)}
+hr{margin-right: 30%}
+.div1{margin-left: 4%;margin-right: 4%;}
+.table2{margin: auto}
+.div2{height:30px;margin-left: 8%;margin-right: 8%;}

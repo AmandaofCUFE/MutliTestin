@@ -1,0 +1,27 @@
+.header {
+    text-align: center;background:rgba(255,255,255,0.95);
+}
+.header1 {
+    margin-top: 2px;
+}
+a{
+    color:#96a5aa;
+}
+.header1 table{
+    margin:auto}
+#report_content tr td{padding-bottom: 50px;}
+
+h1{padding-top: 30px;}
+.main{width:80%;margin-left: 10%;margin-top: 50px;margin-bottom: 50px;background:rgba(255,255,255,0.95)}
+#report_content{margin-left: 10%;margin-right: 10%;margin-top: 50px;}
+hr{width:80%;margin-left: 10%;}
+.div1{margin-left: 10%;margin-right: 10%;margin-top: 50px;margin-bottom: 50px;}
+#newComment{margin-left: 5%;margin-right: 5%;}
+.div2{margin-left: 10%;margin-right: 10%;margin-top: 50px;margin-bottom: 50px;}
+#allComment{margin-left: 5%;margin-right: 5%;}
+#addComment{margin-left: 10%;margin-right: 10%;}
+textarea{width: 100%;}
+button{border-radius: 10px;background-color:#a8a1c2;border:1.2px solid #a8a1c2;width:20%;margin-left: 40%;height:30px;margin-top: 40px;margin-bottom: 40px;}
+.div3{height:30px;margin-top: 50px;background:rgba(255,255,255,0.95)}
+.div4{height:50px;background:rgba(255,255,255,0.95)}
+table{margin: auto}

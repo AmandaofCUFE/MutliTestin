@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entity.TReviewEntity" table="review" schema="testin">
+        <id name="reviewId">
+            <column name="review_id" sql-type="int(11)"/>
+        </id>
+        <property name="articleTitle">
+            <column name="article_title" sql-type="varchar(5000)" length="5000" not-null="true"/>
+        </property>
+        <property name="articleAuthor">
+            <column name="article_author" sql-type="varchar(5000)" length="5000" not-null="true"/>
+        </property>
+        <property name="articleUrl">
+            <column name="article_url" sql-type="varchar(5000)" length="5000" not-null="true"/>
+        </property>
+        <property name="reviewContent">
+            <column name="review_content" sql-type="longtext" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

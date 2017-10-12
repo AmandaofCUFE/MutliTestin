@@ -1,0 +1,31 @@
+
+.header {
+    text-align: center;background:rgba(255,255,255,0.95);
+}
+.header1 {
+    margin-top: 2px;
+}
+.header1 a{
+    text-decoration:none;
+}
+.header1 table{
+    margin:auto   }
+a{color:#6b6b6b;}
+.div1{background:rgba(255,255,255,0);height: 50px;}
+.main{width:70%;margin-left: 15%;padding-top: 10px;background:rgba(255,255,255,0.95);}
+.div2{margin-left: 10%;margin-right: 10%}
+h2{width: 90%;margin-left: 5%;padding-top: 30px;}
+#reportTitle{width: 90%;margin-left: 5%}
+#reportContent{width: 90%;margin-left: 5%}
+button{border-radius: 10px;
+    background-color:#a8a1c2;border:1.2px solid #a8a1c2;width:20%;margin-left: 40%}
+
+.div3{margin:auto;background-color: #ffffff;height:20px}
+.div4{margin:auto;background-color: #ffffff;height:20px}
+.div5{width: 90%;margin-left: 5%}
+.am-u-md-8{padding-bottom: 50px;}
+.div6{height:50px;background:rgba(255,255,255,0);width:100%;}
+.div7{background:rgba(255,255,255,0.95);width:100%;height:100px;}
+.buttom{margin:auto;width:50%;padding-top: 30px;}
+
+
